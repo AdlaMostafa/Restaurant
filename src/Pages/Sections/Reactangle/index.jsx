@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './style.css'
-import Searchicon from './search-interface-symbol (1).png'
+import Searchicon from '../../../Images/Searchicon.png'
 import line from '../../../Images/line.png'
 import Logo from '../../../Images/Logo.png'
 export default class Reactangle extends Component {
