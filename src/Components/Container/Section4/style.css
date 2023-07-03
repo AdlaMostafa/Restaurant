@@ -1,0 +1,270 @@
+.Section4 {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    top: 50px;
+    margin-bottom: 20px;
+    }
+  .title4 {
+    position: absolute;
+    width: 324px;
+    height: 25px;
+    top: 20px;
+    left: 544px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Section4 .title4 h1 {
+    position: absolute;
+    font-family: 'Dancing Script';
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0.1em;
+    color: rgba(255, 206, 109, 1);
+  }
+  
+  .Section4 .menu {
+    position: absolute;
+    width: 324px;
+    height: 25px;
+    top: 65px;
+    left: 544px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Section4 .menu p {
+    position: relative;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 550;
+    line-height: 35px;
+    letter-spacing: 0em;
+    color: rgb(255, 255, 255);
+  }
+  .leftimages{
+    position: absolute;
+    width: 40px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 110px;
+    margin-left: 80px;
+    gap: 20px;
+  }
+  .leftimags img{
+    width: 40px;
+  }
+  .lefttext{
+    margin-left:-70px;
+    display: flex;
+    flex-direction: column;
+  }
+  .lefttext .first{
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+    margin-top: 70px;
+    }
+    .first h1{
+      margin-bottom: -15px;
+    }
+    .lefttext .second{
+      display: flex;
+      flex-direction: column;
+      margin-left: 120px;
+      margin-top: -20px;
+      }
+      .second h1{
+        margin-bottom: -15px;
+      }
+
+      .lefttext .third{
+        display: flex;
+        flex-direction: column;
+        margin-left: 120px;
+        margin-top: -20px;
+        }
+        .third h1{
+          margin-bottom: -15px;
+        }
+        .lefttext .fourth{
+          display: flex;
+          flex-direction: column;
+          margin-left: 120px;
+          margin-top: -20px;
+          }
+          .fourth h1{
+            margin-bottom: -15px;
+          }
+          .lefttext .fifht{
+            display: flex;
+            flex-direction: column;
+            margin-left: 120px;
+            margin-top: -20px;
+            }
+            .fifht h1{
+              margin-bottom: -15px;
+            }
+            .lefttext .sixth{
+              display: flex;
+              flex-direction: column;
+              margin-left: 120px;
+              margin-top: -20px;
+              }
+              .sixth h1{
+                margin-bottom: -15px;
+              }
+              .container {
+                position: relative;
+              }
+              
+              .lines {
+                position: absolute;
+                width: 40px;
+                height: 100px;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                margin-top: -520px;
+                margin-left: 535px;
+                gap: 73px;
+              }
+              
+              .line {
+                width: 123px;
+                height: 1px;
+                margin-top: 12px;
+                background: rgba(255, 206, 109, 1);
+                border: 1px solid rgba(255, 206, 109, 1);
+              }
+              
+              .prices {
+                position: absolute;
+                width: 40px;
+                height: 100px;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                margin-top: -530px;
+                margin-left: 650px;
+                gap: 39px;
+              }
+              
+              .prices h1 {
+                font-family: Roboto;
+                font-size: 20px;
+                font-weight: 650;
+                line-height: 20px;
+                letter-spacing: 0.1em;
+                text-align: right;
+                flex-basis: 100%;
+                color: rgba(255, 206, 109, 1);
+              }
+          
+              .rightimages {
+                position: absolute;
+                width: 40px;
+                height: 100px;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                margin-top: -510px;
+                margin-left: 52%;
+                gap: 20px;
+              }
+              
+              .righttext {
+                margin-left: -95px;
+                display: flex;
+                flex-direction: column;
+              }
+              
+              .righttext .first {
+                display: flex;
+                flex-direction: column;
+                margin-left: 800px;
+                margin-top: -580px;
+              }
+              
+              .righttext .second {
+                display: flex;
+                flex-direction: column;
+                margin-left: 800px;
+                margin-top: -20px;
+              }
+              
+              .righttext .third {
+                display: flex;
+                flex-direction: column;
+                margin-left: 800px;
+                margin-top: -20px;
+              }
+              
+              .righttext .fourth {
+                display: flex;
+                flex-direction: column;
+                margin-left: 800px;
+                margin-top: -20px;
+              }
+              
+              .righttext .fifht {
+                display: flex;
+                flex-direction: column;
+                margin-left: 800px;
+                margin-top: -20px;
+              }
+              
+              .righttext .sixth {
+                display: flex;
+                flex-direction: column;
+                margin-left: 800px;
+                margin-top: -20px;
+              }
+              
+              .rightcontainer {
+                position: relative;
+              }
+              
+              .rightlines {
+                position: absolute;
+                width: 40px;
+                height: 100px;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                margin-top: -548px;
+                margin-left: 83%;
+                gap: 73px;
+              }
+              
+              .rightprices {
+                position: absolute;
+                width: 40px;
+                height: 100px;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                margin-top: -560px;
+                margin-left: 91%;
+                gap: 38px;
+              }
+              
+              .rightprices h1 {
+                font-family: Roboto;
+                font-size: 20px;
+                font-weight: 650;
+                line-height: 20px;
+                letter-spacing: 0.1em;
+                text-align: right;
+                flex-basis: 100%;
+                color: rgba(255, 206, 109, 1);
+              }
+              
+            
+  
