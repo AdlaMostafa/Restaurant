@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
+.recparent {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 90px;
+    width: 988px;
+    height: 76px;
+  }  
+
+.rectangle{
+    position: absolute;
+    width: 65.95rem;
+    height: 4.72rem;
+    margin-top:8.18rem;
+    left: 14.125rem;
+    background: rgba(16, 20, 24, 1);
+}
+.resticon{
+    position: absolute;
+    width:4.938rem ;
+    height: 4.75rem;
+    display: flex;
+    align-items: start;
+    color: aliceblue;
+}
+.anchors{
+    position: absolute;
+    width: 32.380rem;
+    height: 1.5rem;
+    top: 1.5rem;
+    left: 8.80rem;
+    padding: 0px 2px 0px 9px;
+    display: flex;
+    align-items: center;
+    gap: 2.9rem;
+}
+.anchors .Searchicon img{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: end;
+    top: 6px;
+    left: 15px;
+}
+.anchors a{
+    color: rgba(255, 255, 204, 1);
+    text-decoration: none;
+    font-size:1.14rem;
+    font-weight: 600;
+    display: block;
+    cursor: pointer;
+    line-height:1.318rem ;
+    white-space: nowrap;
+}
+.anchors a:hover{
+    color: green;
+}
+.Book{
+    position: absolute;
+    width: 272px;
+    height: 66px;
+    left: 774px;
+    background-color: rgba(160, 128, 64, 1);;
+    border: 5px solid rgba(160, 128, 64, 1);
+}
+.Book img{
+    position: absolute;
+    width: 35px;
+    top: 30px;
+    left: 193px;
+    display: flex;
+    align-items: center;
+}
+.Book .image2 img{
+    position: absolute;
+    width: 35px;
+    top: 30px;
+    left: 40px;
+}
+.BookNow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 272px;
+    height: 60px;
+    top: 29px;
+    left: 83px;
+}
+.BookNow p{
+    position: absolute;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
