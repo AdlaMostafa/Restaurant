@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
+
+.Section5 {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  top: 200px;
+  background: rgba(16, 20, 24, 0.7);
+}
+
+.Section5 .righttop img {
+  position: absolute;
+  width: 300px;
+  height: 390px;
+  margin-top: -40px;
+  left: 72%;
+  transform: translateX(-50%);
+}
+
+.Section5 .lefttop img {
+  position: absolute;
+  width: 300px;
+  height: 390px;
+  margin-top: -40px;
+  right: 70%;
+  transform: translateX(50%);
+}
+
+.Section5 .centrepar {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 70px;
+  margin-top: 150px;
+  flex-direction: column;
+  z-index: 2;
+}
+
+.Section5 .centrepar .title p {
+  position: relative;
+  font-family: 'Dancing Script';
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 0.12em;
+  text-align: center;
+  margin-top: -80px;
+  color: rgba(255, 255, 252, 1);
+}
+
+.Section5 .centrepar .price p {
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 550;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  margin-top: -30px;
+  text-align: center;
+  color: rgba(255, 206, 109, 1);
+}
+
+.Section5 .centrepar .BookButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 45px;
+  margin-top: -10px;
+  background: rgba(16, 20, 24, 0.7);
+  border: 3px solid rgb(255, 255, 255);
+}
+
+.Section5 .centrepar .BookButton p {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .Section5 .righttop img,
+  .Section5 .lefttop img {
+    width: 200px;
+    height: 260px;
+    margin-top: -30px;
+  }
+
+  .Section5 .centrepar {
+    width: 100%;
+    left: 0;
+    margin-top: 100px;
+  }
+
+  .Section5 .centrepar .title p {
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: -50px;
+  }
+
+  .Section5 .centrepar .price p {
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 10px;
+    margin-right: 0;
+  }
+
+  .Section5 .centrepar .BookButton {
+    width: 140px;
+    height: 40px;
+    margin-top: 10px;
+  }
+
+  .Section5 .centrepar .BookButton p {
+    font-size: 16px;
+  }
+}
