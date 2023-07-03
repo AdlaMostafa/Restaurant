@@ -1,0 +1,88 @@
+.parts {
+  position: relative;
+  width: 300px;
+  height: 355px;
+  border: 1px;
+  background: linear-gradient(0deg, rgba(19, 14, 14, 0.3), rgba(126, 103, 56, 0.3)),
+  linear-gradient(0deg, #242017, #050505);
+  border: 2px dashed rgb(57, 41, 9);
+  margin-top: 90px;
+  margin-bottom: 50px;
+  margin-left: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.Fresh,
+.Chef,
+.Dish {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Fresh img,
+.Chef img,
+.Dish img {
+  width: 80px;
+  height: 80px;
+}
+
+.Fresh .titleh1 h1,
+.Chef .titleh1 h1,
+.Dish .titleh1 h1 {
+  font-family: 'Roboto';
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(255, 255, 252, 1);
+}
+
+.Fresh .textp,
+.Chef .textp,
+.Dish .textp {
+  width: 268px;
+  height: 128px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 10px;
+}
+
+.Fresh .textp p,
+.Chef .textp p,
+.Dish .textp p {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.18em;
+  text-align: left;
+  color: rgba(255, 255, 252, 1);
+}
+
+@media screen and (max-width: 768px) {
+  .parts {
+    width: 100%;
+    height: auto;
+  }
+
+  .Fresh,
+  .Chef,
+  .Dish {
+    width: 100%;
+    height: auto;
+  }
+
+  .Fresh .textp,
+  .Chef .textp,
+  .Dish .textp {
+    width: 100%;
+  }
+}
