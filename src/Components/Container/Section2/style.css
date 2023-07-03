@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
+
+.parent-container {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.LeftContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  z-index: 2;
+  margin: 70px 20px 0px 140px;
+  flex-basis: 100%;
+  margin-bottom: 10px;
+}
+
+.about {
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.about .About {
+  font-family: 'Dancing Script';
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.1em;
+  color: rgba(255, 206, 109, 1);
+  /* margin-bottom: 20px; */
+}
+
+.title {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.title p {
+  font-family: 'Roboto';
+  font-size: 26px;
+  font-weight: 450;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(255, 255, 252, 1);
+  margin-bottom: 40px;
+  margin-top: -50px;
+}
+
+.content {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.13em;
+  text-align: left;
+  color: rgba(255, 255, 252, 1);
+}
+
+.button2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 55px;
+  margin-top: 80px;
+  margin-bottom: 120px;
+  border: 3px solid white;
+  font-size: 22px;
+  font-weight: 600;
+  color: aliceblue;
+}
+
+.paltes {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  display: flex;
+  margin: 150px -250px 200px -580px;
+}
+
+.paltes img {
+  width: 360px;
+  height: 380px;
+  margin-top: -100px;
+  margin-bottom: 500px;
+}
+
+@media screen and (min-width: 768px) {
+  .parent-container {
+    justify-content: space-between;
+  }
+
+  .LeftContent {
+    flex-basis: 50%;
+    max-width: 50%;
+    margin-bottom: 0;
+  }
+
+  .paltes {
+    margin-top: 200px;
+    margin-right: 250px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about .About {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content p {
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .title p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .paltes img {
+    max-width: 100%;
+  }
+}
